@@ -13,7 +13,7 @@ From PortfolioProject.dbo.NashvilleHousing
 -- Standardize Date Format
 
 
-Select saleDateConverted, CONVERT(Date,SaleDate)
+Select saleDate, CONVERT(Date,SaleDate)
 From PortfolioProject.dbo.NashvilleHousing
 
 
@@ -226,6 +226,7 @@ DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate
 
 -----------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------
+
 
 
 
